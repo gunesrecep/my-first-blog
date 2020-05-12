@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block contents %}
+    <fieldset>
+        <legend> {{ post.title }}</legend>
+        <p>{{ post.content|linebreaksbr }}</p>
+    </fieldset>
+{% endblock %}

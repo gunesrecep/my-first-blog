@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    </style>
+    <meta charset="UTF-8">
+    <title>My Simple Blog</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <h1>My Simple Blog</h1>
+        </div>
+        <div class="middle">
+            {% block contents %}
+            {% endblock %}
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>
